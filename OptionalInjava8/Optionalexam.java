@@ -3,7 +3,15 @@ package OptionalInjava8;
 import java.util.NoSuchElementException;
 import java.util.Optional;
 
-public class exam {
+public class Optionalexam {
+    private static Optional<String> getName(int id) {
+        String name="jack";
+        return Optional.ofNullable(name);
+    }
+    private static Optional<String> getFullName(int id) {
+       
+        return Optional.empty();
+    }
     public static void main(String[] args) {
         Optional<String> name=getName(2);
         if(name.isPresent()){
@@ -24,14 +32,7 @@ public class exam {
         
     }
 
-    private static Optional<String> getName(int id) {
-        String name="jack";
-        return Optional.ofNullable(name);
-    }
-    private static Optional<String> getFullName(int id) {
-       
-        return Optional.empty();
-    }
+    
 
     
 }

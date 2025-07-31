@@ -6,6 +6,7 @@ public class SortingTreeSet {
         ts.add(5);
         ts.add(4);
         ts.add(8);
+        ts.add(8);
         ts.add(9);
        
         

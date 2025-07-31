@@ -17,7 +17,9 @@ public class FirstEx {
 
         //declarative approach
         int[] arr2={1,2,5,6,5,8};
-        int sum2= Arrays.stream(arr2).filter(x->x%2==0).sum();
+        int sum2= Arrays.stream(arr2)
+                        .filter(x->x%2==0)
+                        .sum();
         System.out.println(sum2);
 
     }

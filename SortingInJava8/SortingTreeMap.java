@@ -7,7 +7,7 @@ public class SortingTreeMap {
         Map<Integer,String> m= new TreeMap<>();
         m.put(4,"dam" );
         m.put(5,"jack" );
-        m.put(2,"srim" );
+        m.put(12,"srim" );
         m.put(1,"allu" );
         System.out.println("before sorting :"+ m);
 

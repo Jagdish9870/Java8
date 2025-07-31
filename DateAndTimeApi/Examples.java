@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
 
-public class Exapmles {
+public class Examples {
     public static void main(String[] args) {
         LocalDate now=LocalDate.now();
         System.out.println(now);
